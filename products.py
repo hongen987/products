@@ -6,5 +6,5 @@ while True:
     y = input('請輸入商品價格: ')
     p = [x, y]
     product.append(p)
-print(product)
-print(product[0][1])#第0格的第1格
+for p in product:
+    print(p[0], '的價格是', p[1])
